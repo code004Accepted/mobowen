@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
 		<link rel="shortcut icon" type="image/ico" href="./favicon.ico"/>
-		<title>膜拜Siyuan</title>
+		<title>膜拜Bowen</title>
 	</head>
 	<body>
 		<style>
@@ -114,14 +114,14 @@
 						.then(
 							()=>Promise.all([
 								loadScript([`https://cdn.jsdelivr.net/gh/LMOliver/mosiyuan@${VERSION}/lang.min.js`,'../../mosiyuan/lang.js']),
-								loadText([`https://cdn.jsdelivr.net/gh/LMOliver/mosiyuan@${VERSION}/ui.html`,'../../mosiyuan/ui.html']).then((result)=>{window.GAME_UI=result;}),
+								loadText([`https://code004.ml/mobowen/mosiyuan/ui.html`,'../../mosiyuan/ui.html']).then((result)=>{window.GAME_UI=result;}),
 							])
 						),
 					])
-					.then(()=>loadScript([`https://cdn.jsdelivr.net/gh/LMOliver/mosiyuan@${VERSION}/mosiyuan.min.js`,'../../mosiyuan/mosiyuan.js'])),
+					.then(()=>loadScript([`https://code004.ml/mobowen/mosiyuan/mosiyuan.js`,'../../mosiyuan/mosiyuan.js'])),
 					loadCSS(['https://cdn.jsdelivr.net/gh/LMOliver/lmoliver.github.io/normalize.min.css','../normalize.css']),
 					loadCSS(['https://cdn.jsdelivr.net/gh/LMOliver/lmoliver.github.io/default.min.css','../default.css']),
-					loadCSS([`https://cdn.jsdelivr.net/gh/LMOliver/mosiyuan@${VERSION}/mosiyuan.min.css`,'../../mosiyuan/mosiyuan.css']),
+					loadCSS([`https://code004.ml/mobowen/mosiyuan/mosiyuan.css`,'../../mosiyuan/mosiyuan.css']),
 				])
 				.then(()=>{
 					document.getElementById('global').innerHTML='';
