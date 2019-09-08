@@ -633,7 +633,7 @@ const TECH={
 		},
 		xuanxue:{
 			name:'玄学',
-			description:'经过她手里的随机事件便受她掌控，但没被她看到的呢？{!}玄学便是为了探究这个问题而生。',
+			description:'经过他手里的随机事件便受他掌控，但没被他看到的呢？{!}玄学便是为了探究这个问题而生。',
 			require:[],
 			cost(lv){
 				return [
@@ -692,7 +692,7 @@ const TECH={
 		},
 		devotionInduction:{
 			name:'虔诚感应',
-			description:'一束玄妙的魔力丝通向天空，让她知道你正在认真地膜拜她。',
+			description:'一束玄妙的魔力丝通向天空，让他知道你正在认真地膜拜他。',
 			require:[
 				['focus',1],
 				['spell',4],
@@ -732,7 +732,7 @@ const TECH={
 		},
 		hugeStoneBuilding:{
 			name:'巨石',
-			description:'她是如此之巨，以至于巨石都听从她的号令！',
+			description:'他是如此之巨，以至于巨石都听从他的号令！',
 			require:[
 				['geometry',1],
 			],
@@ -812,7 +812,7 @@ const TECH={
 		},
 		warMindInduction:{
 			name:'战意感应',
-			description:'法阵与乌云以红色的光柱连接，让她知道人们渴望战斗。',
+			description:'法阵与乌云以红色的光柱连接，让他知道人们渴望战斗。',
 			require:[
 				['explore',3],
 				['fireFazhen',5],
@@ -858,7 +858,7 @@ const TECH={
 		},
 		blessing:{
 			name:'祝福术',
-			description:'来自她的祝福能让信徒们如获新生。',
+			description:'来自他的祝福能让信徒们如获新生。',
 			require:[
 				['antiGugu',1],
 				['windFazhen',2],
@@ -873,7 +873,7 @@ const TECH={
 		},
 		timeInduction:{
 			name:'时间感应',
-			description:'数百双眼睛盯着法阵中幽蓝色的光芒，向她祈求永恒的瞬间。',
+			description:'数百双眼睛盯着法阵中幽蓝色的光芒，向他祈求永恒的瞬间。',
 			require:[
 				['antiGugu',2],
 				['fazhenBuilding',9],
