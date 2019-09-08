@@ -1,9 +1,9 @@
 <div>
 	<model-alert
 		v-if="showUpdate"
-		:title="translate(`膜拜{Siyuan} {0} {1}`,VERSION,translate(VERSION_NAME))"
+		:title="translate(`膜拜{Bowen} {0} {1}`,VERSION,translate(VERSION_NAME))"
 		:value="translate(`新增了时间感应，调整了整洁。\n修复了一些 bug。`)"></model-alert>
-	<h1 v-html="translate(`膜拜{Siyuan}`)"></h1>
+	<h1 v-html="translate(`膜拜{Bowen}`)"></h1>
 	<div>
 		<button style="float: right;" @click="()=>dailyMessage=DAILY_MESSAGES[Math.floor(Math.random()*DAILY_MESSAGES.length)]">{{translate(`换一个`)}}</button>
 		<p v-html="translate(dailyMessage)"></p>
@@ -11,9 +11,9 @@
 	<div class="area">
 		<h2 v-html="translate(`荒野`)"></h2>
 		<blockquote>
-			<p v-html="translate(`曾经，有一个高度发达的文明在这个星球上度过了它最为繁荣的时代。{!}在那时，人们相信{Siyuan}是最强的神，也是这个星球的科技、魔法与信仰三大学科体系高度发展的原因。`)"></p>
+			<p v-html="translate(`曾经，有一个高度发达的文明在这个星球上度过了它最为繁荣的时代。{!}在那时，人们相信{Bowen}是最强的神，也是这个星球的科技、魔法与信仰三大学科体系高度发展的原因。`)"></p>
 			<p v-html="translate(`然而好景不长，曾被人们认为亘古不变的真理在一次失控的魔法实验之后支离破碎。{!}科技与魔法的支柱轰然倒塌，毁灭席卷了整个星球。`)"></p>
-			<p v-html="translate(`高楼变为废墟，法阵化作黄土，雕像碎成砂砾，但{Siyuan}并未抛弃这个文明——因为信仰仍在。`)"></p>
+			<p v-html="translate(`高楼变为废墟，法阵化作黄土，雕像碎成砂砾，但{Bowen}并未抛弃这个文明——因为信仰仍在。`)"></p>
 		</blockquote>
 		<div class="col">
 			<h4 v-html="translate(`膜拜`)"></h4>
