@@ -1498,7 +1498,10 @@ function truthAbbrDescription(lv){
 	].filter(s=>TRUTH_UPGRADES[lv][s]);
 	if(abbrList.length===0)return '';
 	return '('+abbrList.map(x=>({
-		dark:`<span title="${translate(`真理隐于黑暗，逃避着前来的探索者。`)}" class="help">${translate(`黑暗`)}</span>`,
+		dark:`<span title="${translate(`真理隐于黑暗，逃避着前来的探索者。`)}" class="help">${translate(`黑暗`)}</
+
+
+>`,
 		fog:`<span title="${translate(`透过迷雾，真理的影子显得模糊。`)}" class="help">${translate(`迷雾`)}</span>`,
 		gugu:`<span title="${translate(`鸽子的羽毛落在实验器材上，使实验无法进行。`)}" class="help">${translate(`鸽羽`)}</span>`,
 	}[x])).join(', ')+')';
@@ -2644,7 +2647,7 @@ Vue.component('model-alert',{
 							return obj;
 						}
 						console.log(
-							`膜拜 %cS%ciyuan%c 要真诚!\n%chttps://orzsiyuan.com/`,
+							`膜拜 %cBowen%c 要真诚!\n`,
 							'color:black;font-weight:bold;',
 							'color:red;font-weight:bold;',
 							'',
