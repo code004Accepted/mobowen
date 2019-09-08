@@ -3,7 +3,7 @@
 		v-if="showUpdate"
 		:title="translate(`膜拜{Siyuan} {0} {1}`,VERSION,translate(VERSION_NAME))"
 		:value="translate(`新增了时间感应，调整了整洁。\n修复了一些 bug。`)"></model-alert>
-	<h1 v-html="translate(`膜拜{Bowen}`)"></h1>
+	<h1 v-html="translate(`膜拜{Siyuan}`)"></h1>
 	<div>
 		<button style="float: right;" @click="()=>dailyMessage=DAILY_MESSAGES[Math.floor(Math.random()*DAILY_MESSAGES.length)]">{{translate(`换一个`)}}</button>
 		<p v-html="translate(dailyMessage)"></p>
